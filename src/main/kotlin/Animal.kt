@@ -50,8 +50,6 @@ open class Animal(
     }
 
 
-	fun attack(){
-
-}
+	
 
 }
