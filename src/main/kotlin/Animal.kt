@@ -41,11 +41,17 @@ open class Animal(
         weight = 1
         currentAge = 0
         println(
-            "Родилось животное $name" +
+            "Появилось животное $name" +
                     " энергия $energy максимальный возраст $maxAge" +
                     " вес $weight возраст $currentAge"
         )
         return Animal(name, energy, maxAge, weight)
 
     }
+
+
+	fun attack(){
+
+}
+
 }
