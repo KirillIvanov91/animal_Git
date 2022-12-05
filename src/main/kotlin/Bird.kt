@@ -10,4 +10,7 @@ class Bird(name: String = "Птичка", energy: Int = 3, maxAge: Int = 1, weig
         super.reproduction()
         return Bird(name, energy, maxAge, weight)
     }
+
+fun birdAtack(){
+}
 }
